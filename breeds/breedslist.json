@@ -1,0 +1,294 @@
+[
+    {
+        "id": "13858483",
+        "friendly-id": "australian-cattle-dog",
+        "breed": "Australian Cattle Dog",
+        "group": "herding"
+    },
+    {
+        "id": "43338085",
+        "friendly-id": "australian-shepherd",
+        "breed": "Australian Shepherd",
+        "group": "herding"
+    },
+    {
+        "id": "44471185",
+        "friendly-id": "bearded-collie",
+        "breed": "Bearded Collie",
+        "group": "herding"
+    },
+    {
+        "id": "91265325",
+        "friendly-id": "beauceron",
+        "breed": "Beauceron",
+        "group": "herding"
+    },
+    {
+        "id": "97573635",
+        "friendly-id": "belgian-laekenois",
+        "breed": "Belgian Laekenois",
+        "group": "herding"
+    },
+    {
+        "id": "50260266",
+        "friendly-id": "belgian-malinois",
+        "breed": "Belgian Malinois",
+        "group": "herding"
+    },
+    {
+        "id": "66325436",
+        "friendly-id": "belgian-sheepdog",
+        "breed": "Belgian Sheepdog",
+        "group": "herding"
+    },
+    {
+        "id": "56684276",
+        "friendly-id": "belgian-tervuren",
+        "breed": "Belgian Tervuren",
+        "group": "herding"
+    },
+    {
+        "id": "91427855",
+        "friendly-id": "bergamasco",
+        "breed": "Bergamasco",
+        "group": "herding"
+    },
+    {
+        "id": "44167511",
+        "friendly-id": "berger-picard",
+        "breed": "Berger Picard",
+        "group": "herding"
+    },
+    {
+        "id": "91935677",
+        "friendly-id": "border-collie",
+        "breed": "Border Collie",
+        "group": "herding"
+    },
+    {
+        "id": "40070625",
+        "friendly-id": "bouvier-des-flanders",
+        "breed": "Bouvier des Flandres",
+        "group": "herding"
+    },
+    {
+        "id": "39542120",
+        "friendly-id": "briard",
+        "breed": "Briard",
+        "group": "herding"
+    },
+    {
+        "id": "79943256",
+        "friendly-id": "canaan-dog",
+        "breed": "Canaan Dog",
+        "group": "herding"
+    },
+    {
+        "id": "46009162",
+        "friendly-id": "cardigan-welsh-corgi",
+        "breed": "Cardigan Welsh Corgi",
+        "group": "herding"
+    },
+    {
+        "id": "52064643",
+        "friendly-id": "collie",
+        "breed": "Collie",
+        "group": "herding"
+    },
+    {
+        "id": "24477948",
+        "friendly-id": "entlebucher-mountain-dog",
+        "breed": "Entlebucher Mountain Dog",
+        "group": "herding"
+    },
+    {
+        "id": "56365990",
+        "friendly-id": "finnish-lapphund",
+        "breed": "Finnish Lapphund",
+        "group": "herding"
+    },
+    {
+        "id": "96384203",
+        "friendly-id": "german-shepherd-dog",
+        "breed": "German Shepherd Dog",
+        "group": "herding"
+    },
+    {
+        "id": "66833889",
+        "friendly-id": "icelandic-sheepdog",
+        "breed": "Icelandic Sheepdog",
+        "group": "herding",
+        "origin-country": "IS"
+    },
+    {
+        "id": "96942435",
+        "friendly-id": "miniature-american-shepherd",
+        "breed": "Miniature American Shepherd",
+        "group": "herding"
+    },
+    {
+        "id": "17814985",
+        "friendly-id": "norwegian-buhund",
+        "breed": "Norwegian Buhund",
+        "group": "herding"
+    },
+    {
+        "id": "31764207",
+        "friendly-id": "old-english-sheepdog",
+        "breed": "Old English Sheepdog",
+        "group": "herding"
+    },
+    {
+        "id": "26693188",
+        "friendly-id": "pembroke-welsh-corgi",
+        "breed": "Pembroke Welsh Corgi",
+        "group": "herding"
+    },
+    {
+        "id": "49944552",
+        "friendly-id": "polish-lowland-sheepdog",
+        "breed": "Polish Lowland Sheepdog",
+        "group": "herding"
+    },
+    {
+        "id": "29002121",
+        "friendly-id": "puli",
+        "breed": "Puli",
+        "group": "herding"
+    },
+    {
+        "id": "85939776",
+        "friendly-id": "pumi",
+        "breed": "Pumi",
+        "group": "herding"
+    },
+    {
+        "id": "59597306",
+        "friendly-id": "pyrenean-shepherd",
+        "breed": "Pyrenean Shepherd",
+        "group": "herding"
+    },
+    {
+        "id": "27418076",
+        "friendly-id": "shetland-sheepdog",
+        "breed": "Shetland Sheepdog",
+        "group": "herding"
+    },
+    {
+        "id": "48781225",
+        "friendly-id": "spanish-water-dog",
+        "breed": "Spanish Water Dog",
+        "group": "herding"
+    },
+    {
+        "id": "16423594",
+        "friendly-id": "swedish-vallhund",
+        "breed": "Swedish Vallhund",
+        "group": "herding"
+    },
+    {
+        "id": "97431415",
+        "friendly-id": "afghan-hound",
+        "breed": "Afghan Hound",
+        "group": "hound",
+        "origin-country": "AF"
+    },
+    {
+        "id": "82241430",
+        "friendly-id": "american-english-coonhound",
+        "breed": "American English Coonhound",
+        "group": "hound",
+        "origin-country": "US"
+    },
+    {
+        "id": "46964572",
+        "friendly-id": "american-foxhound",
+        "breed": "American Foxhound",
+        "group": "hound",
+        "origin-country": "US"
+    },
+    {
+        "id": "85657868",
+        "friendly-id": "azawakh",
+        "breed": "Azawakh",
+        "group": "hound",
+        "origin-country": "NE"
+    },
+    {
+        "id": "98500903",
+        "friendly-id": " belgian-laekenois",
+        "breed": "Belgian Laekenois ",
+        "group": "miscellaneous",
+        "origin-country": "BE"
+    },
+    {
+        "id": "46225293 ",
+        "friendly-id": "biewer-terrier",
+        "breed": "Biewer Terrier",
+        "group": "miscellaneous",
+        "origin-country": "DE"
+    },
+    {
+        "id": "77791517",
+        "friendly-id": "bracco-italiano",
+        "breed": "Bracco Italiano",
+        "group": "miscellaneous",
+        "origin-country": "IT"
+    },
+    {
+        "id": "57337018",
+        "friendly-id": "dutch-shepherd",
+        "breed": "Dutch Shepherd",
+        "group": "miscellaneous",
+        "origin-country": "NL"
+    },
+    {
+        "id": "54645752",
+        "friendly-id": "lancashire-heeler",
+        "breed": "Lancashire Heeler",
+        "group": "miscellaneous",
+        "origin-country": "GB"
+    },
+    {
+        "id": "62749895",
+        "friendly-id": "mudi",
+        "breed": "Mudi",
+        "group": "miscellaneous",
+        "origin-country": "HU"
+    },
+    {
+        "id": "71411143",
+        "friendly-id": "norrbottenspets",
+        "breed": "Norrbottenspets",
+        "group": "miscellaneous",
+        "origin-country": "SE,FI"
+    },
+    {
+        "id": "87839618",
+        "friendly-id": "peruvian-inca-orchid",
+        "breed": "Peruvian Inca Orchid",
+        "group": "miscellaneous",
+        "origin-country": "PE"
+    },
+    {
+        "id": "27394188",
+        "friendly-id": "portuguese-podengo",
+        "breed": "Portuguese Podengo",
+        "group": "miscellaneous",
+        "origin-country": "PT"
+    },
+    {
+        "id": "64474475",
+        "friendly-id": "russian-toy",
+        "breed": "Russian Toy",
+        "group": "miscellaneous",
+        "origin-country": "RU"
+    },
+    {
+        "id": "59382150",
+        "friendly-id": "teddy-roosevelt-terrier",
+        "breed": "Teddy Roosevelt Terrier",
+        "group": "miscellaneous",
+        "origin-country": "US"
+    }
+]
