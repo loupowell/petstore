@@ -3,7 +3,8 @@
         "id": "13858483",
         "friendly-id": "australian-cattle-dog",
         "breed": "Australian Cattle Dog",
-        "group": "herding"
+        "group": "herding", 
+        "origin-country": "AU"
     },
     {
         "id": "43338085",
