@@ -70,6 +70,14 @@ func ValidateInputs(dataSet interface{}) (state bool, errors interface{}) {
 				thisError := ModelError{Code: "W-GLBL-STD-1005", Title: "The " + name + " field must containt a valid enumeration."}
 				theseErrors.Errors = append(theseErrors.Errors, thisError)
 				break
+			case "len":
+				thisError := ModelError{Code: "W-GLBL-STD-1006", Title: "The " + name + " field must be 10 digits."}
+				theseErrors.Errors = append(theseErrors.Errors, thisError)
+				break
+			case "numeric":
+				thisError := ModelError{Code: "W-GLBL-STD-1007", Title: "The " + name + " field must be a number."}
+				theseErrors.Errors = append(theseErrors.Errors, thisError)
+				break
 			default:
 				thisError := ModelError{Code: "W-GLBL-STD-1000", Title: "General Error. The " + name + " field is invalid."}
 				theseErrors.Errors = append(theseErrors.Errors, thisError)

@@ -1,0 +1,101 @@
+[
+    {
+        "id": "54797548", 
+        "petName": "Zeke",
+        "sex": "M",
+        "breed": "Australian Shepherd",
+        "breedURI": "/breeds/australian-shepherd",
+        "owner": "31993260", 
+        "ownerURI": "/owners/31993260"
+    },
+    {
+        "id": "14783352", 
+        "petName": "Tootsie",
+        "sex": "F",
+        "breed": "Spanish Water Dog",
+        "breedURI": "/breeds/spanish-water-dog",
+        "owner": "56526911",
+        "ownerURI": "/owners/56526911"
+    },
+    {
+        "id": "41123499", 
+        "petName": "Shaggy",
+        "sex": "M",
+        "breed": "Russian Toy",
+        "breedURI": "/breeds/russian-toy",
+        "owner": "67393342",
+        "ownerURI": "/owners/67393342"
+    },
+    {
+        "id": "28078697", 
+        "petName": "Archie",
+        "sex": "M",
+        "breed": "Russian Toy",
+        "breedURI": "/breeds/russian-toy",
+        "owner": "67393342",
+        "ownerURI": "/owners/67393342"
+    },
+    {
+        "id": "41108981", 
+        "petName": "Guinness",
+        "sex": "M",
+        "breed": "Afghan Hound",
+        "breedURI": "/breeds/afghan-hound",
+        "owner": "77402937",
+        "ownerURI": "/owners/77402937"
+    },
+    {
+        "id": "17380154", 
+        "petName": "Pong",
+        "sex": "F",
+        "breed": "Finnish Lapphund",
+        "breedURI": "/breeds/finnish-lapphund",
+        "owner": "92847724",
+        "ownerURI": "/owners/92847724"
+    },
+    {
+        "id": "16263997", 
+        "petName": "Bandit",
+        "sex": "M",
+        "breed": "Pembroke Welsh Crogi",
+        "breedURI": "/breeds/pembroke-welsh-corgi",
+        "owner": "97573790",
+        "ownerURI": "/owners/97573790"
+    },
+    {
+        "id": "75923337", 
+        "petName": "Dakota",
+        "sex": "M",
+        "breed": "Biewer Terrier",
+        "breedURI": "/breeds/biewer-terrier",
+        "owner": "97573790",
+        "ownerURI": "/owners/97573790"
+    },
+    {
+        "id": "72540954", 
+        "petName": "Houdini",
+        "sex": "F",
+        "breed": "Bergamasco",
+        "breedURI": "/breeds/bergamasco",
+        "owner": "69020653",
+        "ownerURI": "/owners/69020653"
+    },
+    {
+        "id": "53679006", 
+        "petName": "Ariel",
+        "sex": "F",
+        "breed": "Bearded Collie",
+        "breedURI": "/breeds/bearded-collie",
+        "owner": "69020653",
+        "ownerURI": "/owners/69020653"
+    },
+    {
+        "id": "36446369", 
+        "petName": "Adobe",
+        "sex": "M",
+        "breed": "Border Collie",
+        "breedURI": "/breeds/border-collie",
+        "owner": "69020653",
+        "ownerURI": "/owners/69020653"
+    }
+]
