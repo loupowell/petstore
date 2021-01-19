@@ -66,6 +66,10 @@ func ValidateInputs(dataSet interface{}) (state bool, errors interface{}) {
 				thisError := ModelError{Code: "W-GLBL-STD-1004", Title: "The " + name + " field is too long."}
 				theseErrors.Errors = append(theseErrors.Errors, thisError)
 				break
+			case "min":
+				thisError := ModelError{Code: "W-GLBL-STD-1004", Title: "The " + name + " field is not long enough."}
+				theseErrors.Errors = append(theseErrors.Errors, thisError)
+				break
 			case "oneof":
 				thisError := ModelError{Code: "W-GLBL-STD-1005", Title: "The " + name + " field must containt a valid enumeration."}
 				theseErrors.Errors = append(theseErrors.Errors, thisError)
