@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"net/http"
 	"petstore/breeds"
 	"petstore/owners"
@@ -9,8 +10,16 @@ import (
 	"github.com/gorilla/mux"
 )
 
+func helloWorld(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusOK)
+	var message = "Hello Pet Lovers"
+	json.NewEncoder(w).Encode(message)
+}
+
 func main() {
 	router := mux.NewRouter()
+	router.HandleFunc("/", helloWorld).Methods("GET")
 	router.Path("/breeds").Queries("group", "{group}").HandlerFunc(breeds.GetBreeds).Methods("GET")
 	router.Path("/breeds").Queries("origin-country", "{origin-country}").HandlerFunc(breeds.GetBreeds).Methods("GET")
 	router.HandleFunc("/breeds", breeds.GetBreeds).Methods("GET")
