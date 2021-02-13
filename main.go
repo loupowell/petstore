@@ -2,7 +2,9 @@ package main
 
 import (
 	"encoding/json"
+	"log"
 	"net/http"
+	"os"
 	"petstore/breeds"
 	"petstore/owners"
 	"petstore/pets"
@@ -18,6 +20,13 @@ func helloWorld(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+
+	// Determine port for HTTP service.
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+		log.Printf("defaulting to port %s", port)
+	}
 	router := mux.NewRouter()
 	router.HandleFunc("/", helloWorld).Methods("GET")
 	router.Path("/breeds").Queries("group", "{group}").HandlerFunc(breeds.GetBreeds).Methods("GET")
@@ -31,5 +40,5 @@ func main() {
 	router.HandleFunc("/owners/{id}", owners.GetOwner).Methods("GET")
 	router.HandleFunc("/owners", owners.PostOwners).Methods("POST")
 	router.HandleFunc("/pets", pets.GetPets).Methods("GET")
-	http.ListenAndServe(":8000", router)
+	http.ListenAndServe(":"+port, router)
 }
