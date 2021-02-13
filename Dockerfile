@@ -30,6 +30,8 @@ RUN set -x && apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -
 # Copy the binary to the production image from the builder stage.
 COPY --from=builder /app/main /app/main
 COPY ./breeds /app/breeds/
+COPY ./owners /app/owners/
+COPY ./pets /app/pets/
 
 EXPOSE 8000
 
